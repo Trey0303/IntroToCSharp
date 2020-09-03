@@ -44,7 +44,7 @@ namespace TypeConversion
             binary = (BinaryNumeral)(int)roman;
             // Performs a conversion from a BinaryNumeral to a RomanNumeral.
             // No cast is required:
-            roman = binary;
+            //roman = binary;
             Console.WriteLine((int)binary);
             Console.WriteLine(binary);
             Console.ReadKey();
